@@ -1,6 +1,5 @@
 TODO
 ====
-1. Implement compiling of library.
 2. Requirement libarchive-dev
 Alien::Libarchive or Alien::Libarchive3
 3. Requirement liblua5.4-dev
@@ -10,3 +9,5 @@ Alien::Lua
 
 Applied
 =======
+1. Implement compiling of library.
+OK [20230623] skim
