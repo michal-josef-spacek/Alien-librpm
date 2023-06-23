@@ -17,7 +17,6 @@ my %WriteMakefileArgs = (
 		'Alien::Build::Plugin::Build::Make' => 0,
 		'Alien::Build::Plugin::PkgConfig::Negotiate' => 0,
 		'ExtUtils::MakeMaker' => '6.76',
-		'File::Which' => '0',
 	},
 	'DISTNAME' => 'Alien-librpm',
 	'LICENSE' => 'bsd',
