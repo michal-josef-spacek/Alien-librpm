@@ -10,7 +10,6 @@ my %WriteMakefileArgs = (
 	'BUILD_REQUIRES' => {
 		'Alien::Build::MM' => '0.32',
 		'ExtUtils::MakeMaker' => '6.76',
-		'ExtUtils::CppGuess' => 0,
 	},
 	'CONFIGURE_REQUIRES' => {
 		'Alien::Build::MM' => '0.32',
