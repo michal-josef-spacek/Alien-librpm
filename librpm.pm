@@ -4,7 +4,7 @@ use parent qw(Alien::Base);
 use strict;
 use warnings;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 1;
 
@@ -92,6 +92,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
