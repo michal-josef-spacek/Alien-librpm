@@ -7,7 +7,8 @@ Alien::Lua
 4. 4.18.? ?
 5. Fix test.
 6. libgcrypt on Windows
-7.
+7. libmagic (Alien::LibMagic) on Mac
+8.
 
 Applied
 =======
