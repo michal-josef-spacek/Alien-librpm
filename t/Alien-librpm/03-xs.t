@@ -29,13 +29,13 @@ __DATA__
 #include "perl.h"
 #include "XSUB.h"
 
-#include <libdjvu/ddjvuapi.h>
+#include <rpm/rpmlib.h>
 
 const char *
 version(const char *class)
 {
-	printf ("version: %s\n", ddjvu_get_version_string());
-	return ddjvu_get_version_string();
+	printf("RPM version is '%s'.\n", rpmEVR);
+	return rpmEVR;
 }
 
 MODULE = TA_MODULE PACKAGE = TA_MODULE
