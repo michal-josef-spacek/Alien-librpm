@@ -1,0 +1,7 @@
+use alienfile;
+
+plugin 'PkgConfig' => 'rpm';
+
+share {
+	# TODO
+};
