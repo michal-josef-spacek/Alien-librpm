@@ -7,10 +7,9 @@ on:
   pull_request:
 
 env:
-  PKG_NAME: DjVuLibre
-  PKG_UBUNTU: libdjvulibre-dev djvulibre-bin
-  PKG_HOMEBREW: djvulibre
-  PKG_MSYS2_MINGW64: mingw-w64-x86_64-djvulibre
+  PKG_NAME: rpm
+  PKG_UBUNTU: librpm-dev
+  PKG_HOMEBREW: rpm
   PKG_MSYS2_MINGW64_DEPS: >-
     base-devel
     mingw-w64-x86_64-toolchain
@@ -44,8 +43,7 @@ jobs:
           eval $(perl -I ~/perl5/lib/perl5/ -Mlocal::lib)
           cpanm --notest --with-recommends --with-suggests \
             ExtUtils::MakeMaker \
-            Alien::Build::MM \
-            Alien::Build::Plugin::Decode::SourceForge
+            Alien::Build::MM
       - name: Make distribution
         shell: bash
         run: |
@@ -107,11 +105,6 @@ jobs:
         with:
           update: true
           install: ${{ env.PKG_MSYS2_MINGW64_DEPS }}
-      - name: Set up ${{ env.PKG_NAME }} (MSYS2/MinGW pacman)
-        if: runner.os == 'Windows' && matrix.dist == 'msys2' && matrix.alien-install-type == 'system'
-        shell: msys2 {0}
-        run: |
-          pacman -S --needed --noconfirm ${{ env.PKG_MSYS2_MINGW64 }}
 
       # Setup Perl
       - name: Set up perl
