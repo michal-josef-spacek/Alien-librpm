@@ -8,6 +8,7 @@ MANIFEST			This list of files
 README
 t/Alien-librpm/01-use.t
 t/Alien-librpm/02-version.t
-t/Alien-librpm/03-xs.t
+t/Alien-librpm/03-diag.t
+t/Alien-librpm/04-xs.t
 xt/Alien-librpm/01-pod_coverage.t
 xt/Alien-librpm/02-pod.t

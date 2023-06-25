@@ -1,5 +1,6 @@
 0.02
  - Fix test temporarily.
+ - Improve testing (diag to 03-diag.t).
  - Update example output.
 
 0.01 2023-06-23T18:24:33+02:00

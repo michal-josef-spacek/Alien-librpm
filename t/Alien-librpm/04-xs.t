@@ -5,10 +5,8 @@ use warnings;
 
 use Alien::librpm;
 use Test::Alien;
-use Test::Alien::Diag;
 use Test::More;
 
-alien_diag 'Alien::librpm';
 alien_ok 'Alien::librpm';
 my $xs = do { local $/; <DATA> };
 xs_ok {
