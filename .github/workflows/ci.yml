@@ -13,6 +13,7 @@ env:
   PKG_MSYS2_MINGW64_DEPS: >-
     base-devel
     mingw-w64-x86_64-toolchain
+    mingw-w64-x86_64-gcc
     mingw-w64-x86_64-perl
     mingw-w64-x86_64-curl
     mingw-w64-x86_64-libgcrypt
