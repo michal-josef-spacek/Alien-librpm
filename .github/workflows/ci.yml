@@ -19,7 +19,6 @@ env:
     mingw-w64-x86_64-file
     mingw-w64-x86_64-popt
     mingw-w64-x86_64-libarchive
-    mingw-w64-x86_64-sqlite3
 
 jobs:
   dist:

@@ -14,7 +14,7 @@ share {
 	plugin 'Build::Make' => 'gmake';
 	plugin 'Build::Autoconf';
 	build [
-		'%{configure}',
+		'%{configure} --enable-static --disable-sqlite',
 		'%{make}',
 		'%{make} install',
 	];
