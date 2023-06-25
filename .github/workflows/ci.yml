@@ -16,6 +16,7 @@ env:
     mingw-w64-x86_64-perl
     mingw-w64-x86_64-curl
     mingw-w64-x86_64-libgcrypt
+    mingw-w64-x86_64-file
 
 jobs:
   dist:
