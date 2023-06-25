@@ -9,7 +9,8 @@ Alien::Lua
 6. libgcrypt on Windows
 7. libmagic (Alien::LibMagic) on Mac
 8. support for sqlite?
-9.
+9. CI Test with realpath in msys2 on Windows?
+10.
 
 Applied
 =======
