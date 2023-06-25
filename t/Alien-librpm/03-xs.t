@@ -29,7 +29,10 @@ __DATA__
 #include "perl.h"
 #include "XSUB.h"
 
+/* XXX Conflict between Fflush in librpm and Perl
 #include <rpm/rpmlib.h>
+*/
+extern const char * const rpmEVR;
 
 const char *
 version(const char *class)
