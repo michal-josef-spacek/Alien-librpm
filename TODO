@@ -8,7 +8,8 @@ Alien::Lua
 5. Fix test.
 6. libgcrypt on Windows
 7. libmagic (Alien::LibMagic) on Mac
-8.
+8. support for sqlite?
+9.
 
 Applied
 =======
